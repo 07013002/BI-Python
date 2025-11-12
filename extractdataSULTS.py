@@ -6,7 +6,7 @@ from datetime import datetime
 # Configuração da API
 url_base = "https://api.sults.com.br/api/v1/chamado/ticket"
 headers = {
-    "Authorization": "O21pbmhhcXVpdGFuZGluaGE7MTcwOTgzNjgxOTg3OA==",  #Token sults
+    "Authorization": "token",  #Token sults
     "Content-Type": "application/json;charset=UTF-8"
 }
 

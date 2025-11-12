@@ -6,8 +6,8 @@ import os
 # === CONFIGURAÇÃO DA API ===
 # É uma boa prática carregar segredos de variáveis de ambiente
 # Em vez de deixá-los diretamente no código.
-API_KEY = os.getenv("OCTA_API_KEY", "242c2f7d-edce-41e5-b291-b9646644c8e5.cd9d7bea-896b-4919-b1ed-fa9394f13228")
-AGENT_EMAIL = os.getenv("OCTA_AGENT_EMAIL", "leonardo.santos@grupoqtech.com.br")
+API_KEY = os.getenv("OCTA_API_KEY", "token")
+AGENT_EMAIL = os.getenv("OCTA_AGENT_EMAIL", "email@gmail.com")
 
 headers = {
     "accept": "application/json",
